@@ -22,3 +22,7 @@ le business case initiale contient deja des points preliminaires pouvant etre in
 La maquette ou protoype de l'application sera fait avec (figma)[https://www.figma.com/].
 
 ## Raisonnement de l'applications en terme de fonctionnalites
+
+L'utilisateur doit etre en mesure de
+
+# Mise en production de l'application
