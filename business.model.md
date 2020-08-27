@@ -36,7 +36,7 @@ le business case initiale contient deja des points preliminaires pouvant etre in
 
 ## 1.1. Representation graphiques (arborescence de l'application)
 
-La maquette ou protoype de l'application sera fait avec (figma)[https://www.figma.com/].
+La maquette ou protoype de l'application sera fait avec [figma](https://www.figma.com/).
 
 ## 1.2. Raisonnement de l'applications en terme de fonctionnalites
 
@@ -59,7 +59,7 @@ Cette phase peut etre subdivisee en 4 segments fondamental.
 
 ### 2.1.1 Maquette
 
-La maquette a pour role de representer graphiquement l'arborescence de l'application. A ce niveau, on pourrait envisager les services d'un [ui/ux designer](https://www.salary.com/research/salary/posting/ux-design-intern-hourly-wages#:~:text=Hourly%20Wage%20for%20UX%20Design%20Intern%20Salary%20in%20the%20United%20States&text=How%20much%20does%20a%20UX,falls%20between%20%2431%20and%20%2439.). Mais l'equipe peut aussi faire le choix de faire un design preliminaire avec des outils gratuits tel que figma.
+La maquette a pour role de representer graphiquement l'arborescence de l'application. A ce niveau, on pourrait envisager les services d'un [ui/ux designer](https://www.salary.com/research/salary/posting/ux-design-intern-hourly-wages#:~:text=Hourly%20Wage%20for%20UX%20Design%20Intern%20Salary%20in%20the%20United%20States&text=How%20much%20does%20a%20UX,falls%20between%20%2431%20and%20%2439). Mais l'equipe peut aussi faire le choix de faire un design preliminaire avec des outils gratuits tel que figma.
 
 > Cout eventuel: 27\$ dollars de l'heure pour le UI/UX designer (prix minimal basee sur le marchee americain). En faisant ce choix, on s'assoit deja sur les problemes du good looking de l'interface d'utilisateur et de l'experience d'utilisateur.
 
@@ -84,9 +84,9 @@ Ce choix de developpement sera fait aussi pour la version beta de l'application
 
 > cout eventuel:
 
-    - marche americain: verage 25.88 \$ de l'heure
-    - [outsourcing](https://medium.com/@siriannimatthew435/best-outsourcing-software-companies-software-development-firms-in-india-usa-cd2cf40710a0): 20-49 \$ de l'heure
-    - Haiti: 5-35 \$ de l'heure
+- marche americain: verage 25.88 \$ de l'heure
+- [outsourcing](https://medium.com/@siriannimatthew435/best-outsourcing-software-companies-software-development-firms-in-india-usa-cd2cf40710a0) : 20-49 \$ de l'heure
+- Haiti: 5-35 \$ de l'heure
 
 ### 2.1.4 L'Hebergement de l'application
 
@@ -96,7 +96,7 @@ Dependemment des specificites de l'instance selectionnee on peut:
 
 > cout eventuel:
 
-    - [prix maximal](https://azure.microsoft.com/en-us/pricing/calculator/) 5.184 \$ / hr -> $3,784.37 Average per month
-    - [prix minimal](https://azure.microsoft.com/en-us/pricing/calculator/) 0.117\$ / hr  -> $85.46 Average per month
+- [prix maximal](https://azure.microsoft.com/en-us/pricing/calculator/) 5.184 \$ / hr -> \$3,784.37 Average per month
+- [prix minimal](https://azure.microsoft.com/en-us/pricing/calculator/) 0.117\$ / hr -> \$85.46 Average per month
 
 Il faut dire que ces prix vont varier en fonction de l'utilisation du VM en question. Donc on peut prendre le prix minimal dans ce context.

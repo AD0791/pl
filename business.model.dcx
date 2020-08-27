@@ -1,0 +1,83 @@
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=true} -->
+<!-- code_chunk_output -->
+<ol type="1">
+<li><a href="#1-ebauche-de-cahier-des-charges">1. Ebauche de Cahier des Charges</a>
+<ol type="1">
+<li><a href="#11-representation-graphiques-arborescence-de-lapplication">1.1. Representation graphiques (arborescence de l’application)</a></li>
+<li><a href="#12-raisonnement-de-lapplications-en-terme-de-fonctionnalites">1.2. Raisonnement de l’applications en terme de fonctionnalites</a></li>
+</ol></li>
+<li><a href="#2-mise-en-production-de-lapplication">2. Mise en production de l’application</a>
+<ol type="1">
+<li><a href="#21-resources-et-couts">2.1. Resources et couts</a>
+<ol type="1">
+<li><a href="#211-maquette">2.1.1 Maquette</a></li>
+<li><a href="#212-le-choix-du-stack">2.1.2 Le choix du Stack</a></li>
+<li><a href="#213-le-choix-de-recrutement">2.1.3 Le choix de recrutement</a></li>
+<li><a href="#214-lhebergement-de-lapplication">2.1.4 L’Hebergement de l’application</a></li>
+</ol></li>
+</ol></li>
+</ol>
+<!-- /code_chunk_output -->
+<h1 id="ebauche-de-cahier-des-charges">1. Ebauche de Cahier des Charges</h1>
+<p><strong>Le cahier des Charges</strong>: schémas explicatifs, maquettes fonctionnelles, logos, captures d’écrans de sources d’inspiration, images d’illustration, … Selon les projets et leur complexité sa taille peut varier d’une quinzaine à une centaine de pages</p>
+<p>L’application est mise en place pour repondre a des besoins de gestion de projet de developpement pour toutes instances oeuvrant dans ce cadre.</p>
+<p>le business case initiale contient deja des points preliminaires pouvant etre inclus dans ce document. ces points sont:</p>
+<ul>
+<li>Analyse de la demande</li>
+<li>Analyse des solutions existantes</li>
+<li>Analyse des limites solutions existantes</li>
+<li>description des fonctionnalites techniques specifiques a la gestion de projet</li>
+</ul>
+<h2 id="representation-graphiques-arborescence-de-lapplication">1.1. Representation graphiques (arborescence de l’application)</h2>
+<p>La maquette ou protoype de l’application sera fait avec <a href="https://www.figma.com/">figma</a>.</p>
+<h2 id="raisonnement-de-lapplications-en-terme-de-fonctionnalites">1.2. Raisonnement de l’applications en terme de fonctionnalites</h2>
+<p>L’utilisateur doit etre en mesure de</p>
+<h1 id="mise-en-production-de-lapplication">2. Mise en production de l’application</h1>
+<p>On appelle mise en production de l’application. Tout ce qui rentre dans le processus de deployement de l’application sur les services d’hebergements. ce faisant l’application sera disponible pour utilisation.</p>
+<h2 id="resources-et-couts">2.1. Resources et couts</h2>
+<p>Le processus de creation d’un logiciel comporte plusieurs phase. la premiere comprend l’etape de conceptualisation. Ici on identifie un probleme sucitant un interet clair. Ensuite on vient avec une solution pour resourdre ce probleme. La seconde phase va lui etre le chemin parcouru pour sortir de la conception a la materialisation.</p>
+<p>Cette phase peut etre subdivisee en 4 segments fondamental.</p>
+<ol type="1">
+<li>Dessinage d’une maquette ou prototype.</li>
+<li>le choix d’un Stack (des differents outils technologiques pour construire l’application).</li>
+<li>les choix recrutements de developpeurs pour construire une premiere version de l’application.</li>
+<li>Les choix possibles pour heberger l’application.</li>
+</ol>
+<h3 id="maquette">2.1.1 Maquette</h3>
+<p>La maquette a pour role de representer graphiquement l’arborescence de l’application. A ce niveau, on pourrait envisager les services d’un <a href="https://www.salary.com/research/salary/posting/ux-design-intern-hourly-wages#:~:text=Hourly%20Wage%20for%20UX%20Design%20Intern%20Salary%20in%20the%20United%20States&amp;text=How%20much%20does%20a%20UX,falls%20between%20%2431%20and%20%2439">ui/ux designer</a>. Mais l’equipe peut aussi faire le choix de faire un design preliminaire avec des outils gratuits tel que figma.</p>
+<blockquote>
+<p>Cout eventuel: 27$ dollars de l’heure pour le UI/UX designer (prix minimal basee sur le marchee americain). En faisant ce choix, on s’assoit deja sur les problemes du good looking de l’interface d’utilisateur et de l’experience d’utilisateur.</p>
+</blockquote>
+<h3 id="le-choix-du-stack">2.1.2 Le choix du Stack</h3>
+<p>Le choix du Stack se fera ressentir en 2 moments. Apres avoir obtenu une maquette representant une version beta de l’application. On peut bien vouloir cette version beta heberger donc disponible sur le web pour une utilisation minimal. Nous disons minimal puisque nous n’aurons pas implementer toutes les features a ce stade.</p>
+<p>La version beta de l’application peut etre developpe soit par les associes fondateurs. Soit par les developpeurs embauchees.</p>
+<blockquote>
+<p>cout eventuel: Average 25.88 $ de l’heure pour un developpeur</p>
+</blockquote>
+<p>Mais le choix en soit du stack ne necessite casiment aucun cout reel. Puisqu’ils sont tous open-source. Oubien ils ont un forfait gratuit que nous pouvons utiliser.</p>
+<h3 id="le-choix-de-recrutement">2.1.3 Le choix de recrutement</h3>
+<p>Cette equipe choisira le meilleur mode developpment pour l’application.</p>
+<ul>
+<li>Monolythique</li>
+<li>Microservice</li>
+</ul>
+<p>Ce choix de developpement sera fait aussi pour la version beta de l’application</p>
+<blockquote>
+<p>cout eventuel:</p>
+</blockquote>
+<ul>
+<li>marche americain: verage 25.88 $ de l’heure</li>
+<li><a href="https://medium.com/@siriannimatthew435/best-outsourcing-software-companies-software-development-firms-in-india-usa-cd2cf40710a0">outsourcing</a> : 20-49 $ de l’heure</li>
+<li>Haiti: 5-35 $ de l’heure</li>
+</ul>
+<h3 id="lhebergement-de-lapplication">2.1.4 L’Hebergement de l’application</h3>
+<p>Pour le moment, nous portons notre choix sur Microsoft Azure. De ce faite, si on choisit d’utiliser un service virtual machine pour deployer l’application.</p>
+<p>Dependemment des specificites de l’instance selectionnee on peut:</p>
+<blockquote>
+<p>cout eventuel:</p>
+</blockquote>
+<ul>
+<li><a href="https://azure.microsoft.com/en-us/pricing/calculator/">prix maximal</a> 5.184 $ / hr -&gt; $3,784.37 Average per month</li>
+<li><a href="https://azure.microsoft.com/en-us/pricing/calculator/">prix minimal</a> 0.117$ / hr -&gt; $85.46 Average per month</li>
+</ul>
+<p>Il faut dire que ces prix vont varier en fonction de l’utilisation du VM en question. Donc on peut prendre le prix minimal dans ce context.</p>
