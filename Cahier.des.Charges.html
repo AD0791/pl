@@ -79,6 +79,57 @@ autoNumber: "AMS"
 <li><p>On pourrait Choisir un autre repository autre que github. On pourrait choisir gitlab ou bien bitbucket.</p></li>
 <li><p>On pourrait ce servir d’un autre service CI/CD tel que circle-ci. Ou bien de ne pas s’en servir du tout.</p></li>
 </ol>
+<h3 id="les-differentes-composantes-technologiques-retenus">Les differentes Composantes technologiques retenus</h3>
+<p>Cette sous-section fait l’objet d’un exposee des differents technologies qui seront utilisees. Nous ne pourrons pas aborder toutes ces thematiques en profondeur. Mais elles sont fondamentales pour l’execution du projet.</p>
+<ol type="1">
+<li><p>La base:</p>
+<ul>
+<li>Html5</li>
+<li>Vanilla CSS</li>
+<li>Vanilla Javascrit</li>
+</ul></li>
+</ol>
+<p>Ce sont la, les elements primaires du developpement logiciel. Ils devront faire l’objet d’une maitrise certaine.</p>
+<ol start="2" type="1">
+<li><p>Un framework CSS ou design system:</p>
+<ul>
+<li>Sass</li>
+<li>Bulma</li>
+<li>Tailwind</li>
+<li>Boostrap</li>
+<li>material design</li>
+</ul></li>
+<li><p>Vers Headless CMS:</p>
+<ul>
+<li>Node</li>
+<li>Express</li>
+<li>Strapi</li>
+</ul></li>
+</ol>
+<p>Strapi est contruit au-dessus de Nodejs. Il serait bien d’avoir une notion et une experience complete avec node et express. Comment etablir un server RESTAPI ou Graphql? Comment etablir une connection securise avec un database choisi. Et consort. Pour tout autre headless cms choisi, un raisonnement analogue sera fait au cas par cas.</p>
+<ol start="4" type="1">
+<li><p>Database managment system:</p>
+<ul>
+<li>MySQL / PostgresSQL</li>
+<li>MongoDB / CoucheDB <code>(mention: Redis)</code></li>
+</ul></li>
+<li><p>Vers Nuxt ou Next</p>
+<ul>
+<li>SPA: React ou Vue</li>
+<li>State: Redux ou Vuex</li>
+<li>Next ou Nuxt</li>
+</ul></li>
+</ol>
+<p>Dans ce context, on ne pourra utiliser de <code>JAMstack</code> certe. Mais il faut garder a l’esprit que Next et Nuxt peuvent faire du <code>Static Site Generation</code>. De plus, nous avons corriger les defauts trouver au niveau des SPA, tel que des problemes lies au moteur de recherche.</p>
+<ol start="6" type="1">
+<li><p>DevOps</p>
+<ul>
+<li>ci/cd: Travis-CI ou Circle-CI</li>
+<li>Virtualisation: Docker ou Kubernetes</li>
+<li>Hosting plateforme: Netlify, Azure, AWS et Heroku</li>
+</ul></li>
+</ol>
+<p>Nous avons le choix d’utiliser ou pas un service CI/CD, de virtualisation. Mais a la longue ce seront des options viables.On pourrait dans l’immediat rechercher des services d’hostings gratuits. Mais a un moment de la duree, on va devoir passer a un service de plus haut calibre. Donc Payant.</p>
 <blockquote>
 <p>Decision:</p>
 </blockquote>

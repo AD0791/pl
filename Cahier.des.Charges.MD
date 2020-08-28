@@ -116,6 +116,55 @@ Nous avons plusieurs scenarios possibles:
 
 7. On pourrait ce servir d'un autre service CI/CD tel que circle-ci. Ou bien de ne pas s'en servir du tout.
 
+### Les differentes Composantes technologiques retenus
+
+Cette sous-section fait l'objet d'un exposee des differents technologies qui seront utilisees. Nous ne pourrons pas aborder toutes ces thematiques en profondeur. Mais elles sont fondamentales pour l'execution du projet.
+
+1. La base:
+
+   - Html5
+   - Vanilla CSS
+   - Vanilla Javascrit
+
+Ce sont la, les elements primaires du developpement logiciel. Ils devront faire l'objet d'une maitrise certaine.
+
+2. Un framework CSS ou design system:
+
+   - Sass
+   - Bulma
+   - Tailwind
+   - Boostrap
+   - material design
+
+3. Vers Headless CMS:
+
+   - Node
+   - Express
+   - Strapi
+
+Strapi est contruit au-dessus de Nodejs. Il serait bien d'avoir une notion et une experience complete avec node et express. Comment etablir un server RESTAPI ou Graphql? Comment etablir une connection securise avec un database choisi. Et consort. Pour tout autre headless cms choisi, un raisonnement analogue sera fait au cas par cas.
+
+4. Database managment system:
+
+   - MySQL / PostgresSQL
+   - MongoDB / CoucheDB `(mention: Redis)`
+
+5. Vers Nuxt ou Next
+
+   - SPA: React ou Vue
+   - State: Redux ou Vuex
+   - Next ou Nuxt
+
+Dans ce context, on ne pourra utiliser de `JAMstack` certe. Mais il faut garder a l'esprit que Next et Nuxt peuvent faire du `Static Site Generation`. De plus, nous avons corriger les defauts trouver au niveau des SPA, tel que des problemes lies au moteur de recherche.
+
+6. DevOps
+
+   - ci/cd: Travis-CI ou Circle-CI
+   - Virtualisation: Docker ou Kubernetes
+   - Hosting plateforme: Netlify, Azure, AWS et Heroku
+
+Nous avons le choix d'utiliser ou pas un service CI/CD, de virtualisation. Mais a la longue ce seront des options viables.On pourrait dans l'immediat rechercher des services d'hostings gratuits. Mais a un moment de la duree, on va devoir passer a un service de plus haut calibre. Donc Payant.
+
 > Decision:
 
 Software Architecture `$course :product.manger/scrumMaster/product.owner`
