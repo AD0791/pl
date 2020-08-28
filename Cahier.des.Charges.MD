@@ -62,7 +62,7 @@ Nous choisissons d'utiliser le logiciel [Figma](https://www.figma.com). Il est "
 
 Nous pouvons utiliser un logiciel "web-based" [draw.io](https://app.diagrams.net)
 
-figma nous permettra de faire un design du UI. Il faudra prendre soin du meme coup se familiariser avec les bonnes pratiques UI/UX. `$courses`
+figma nous permettra de faire un design du UI. Il faudra prendre soin du meme coup se familiariser avec les bonnes pratiques UI/UX. `$courses :design.probs`
 
 draw.io est assez intuitif. Nous pourrons l'utiliser pour faire des diagrams simple represantant au mieux l'application.
 
@@ -78,13 +78,21 @@ Toutefois nous utiliserons ce terme pour englober le modus operandi c'est-a-dire
 
 Notre objectif est de trouver la meilleur facon de construire l'application web pour fournir une excellente performance, avec un haut niveau de securite et un cout raisonnablement bas pour le `scaling`.
 
-### Les infrastructures Possibles
+### Les Questions D'infrastructures
 
-Architecture:
+Par Software Architecture nous entendons la representation et la coordination des composantes principales du systeme, qui vont constituer ensemble l'application. Il est necessaire d'aborder ce point puisque le choix de l'architecture determinera l'evolution, la performance et la resilience de l'application.
 
-- monolithic
-- microservices
-- Restapi
-- graphql
+A la base, l'architecture qui est la plus principalment utilisee pour repondre aux besoins d'un utilisateur, est l'architecture `Client-Server`. Il est base sur model `response-resquest`.
+
+![client-server](./assets/client-server.png)
+
+En resume, l'utilisateur en operant sur l'interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario.
+
+- monolithic or microservices
+- Restapi or graphql
+
+> Decision:
+
+Software Architecture `$course :product.manger/scrumMaster/product.owner`
 
 ## Delai de realisation de l'application
