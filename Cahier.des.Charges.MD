@@ -82,13 +82,16 @@ Notre objectif est de trouver la meilleur facon de construire l'application web 
 
 Par Software Architecture nous entendons la representation et la coordination des composantes principales du systeme, qui vont constituer ensemble l'application. Il est necessaire d'aborder ce point puisque le choix de l'architecture determinera l'evolution, la performance et la resilience de l'application.
 
-A la base, l'architecture qui est la plus principalment utilisee pour repondre aux besoins d'un utilisateur, est l'architecture `Client-Server`. Il est base sur model `response-resquest`.
+A la base, l'architecture qui est la plus principalement utilisee pour repondre aux besoins d'un utilisateur, est l'architecture `Client-Server`. Il est base sur model `response-resquest`.
 
 ![client-server](./assets/client-server.png)
 
-En resume, l'utilisateur en operant sur l'interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario.
+En resume, l'utilisateur en operant sur l'interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario. Fort de cela, nous avons deux choix qui vont faire surface. Il existe deux architectures de la meme famille que l'architecture `Client-Server`. L'architecture `Monolithic` et l'architecture `Microservices`.
 
-- monolithic or microservices
+![monolithic-microservice](./assets/mono-micro.png)
+
+Sans trop entrer dans les details techniques, _la question est de savoir lequel des deux choisirs? Ou du moins par quoi commencer?_
+
 - Restapi or graphql
 
 > Decision:
