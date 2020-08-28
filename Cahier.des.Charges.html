@@ -50,17 +50,35 @@ autoNumber: "AMS"
 <p>Le mot “Stack” designe, en ce qui nous concerne, l’ensemble des technologies que nous allons utilise pour developper l’application. Par technologies, nous entendons les languages de programmations et les services que nous aurons a employer.</p>
 <p>Toutefois nous utiliserons ce terme pour englober le modus operandi c’est-a-dire l’infrastructure (l’architecture) que nous mettrons en place pour batir l’application.</p>
 <p>Notre objectif est de trouver la meilleur facon de construire l’application web pour fournir une excellente performance, avec un haut niveau de securite et un cout raisonnablement bas pour le <code>scaling</code>.</p>
-<h3 id="les-questions-dinfrastructures">Les Questions D’infrastructures</h3>
+<h3 id="les-questions-dinfrastructures-generales">Les Questions D’infrastructures Generales</h3>
 <p>Par Software Architecture nous entendons la representation et la coordination des composantes principales du systeme, qui vont constituer ensemble l’application. Il est necessaire d’aborder ce point puisque le choix de l’architecture determinera l’evolution, la performance et la resilience de l’application.</p>
-<p>A la base, l’architecture qui est la plus principalment utilisee pour repondre aux besoins d’un utilisateur, est l’architecture <code>Client-Server</code>. Il est base sur model <code>response-resquest</code>.</p>
+<p>A la base, l’architecture qui est la plus principalement utilisee pour repondre aux besoins d’un utilisateur, est l’architecture <code>Client-Server</code>. Il est base sur model <code>response-resquest</code>.</p>
 <figure>
 <img src="./assets/client-server.png" alt="" /><figcaption>client-server</figcaption>
 </figure>
-<p>En resume, l’utilisateur en operant sur l’interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario.</p>
-<ul>
-<li>monolithic or microservices</li>
-<li>Restapi or graphql</li>
-</ul>
+<p>En resume, l’utilisateur en operant sur l’interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario. Fort de cela, nous avons deux choix qui vont faire surface. Il existe deux architectures de la meme famille que l’architecture <code>Client-Server</code>. L’architecture <code>Monolithic</code> et l’architecture <code>Microservices</code>.</p>
+<figure>
+<img src="./assets/mono-micro.png" alt="" /><figcaption>monolithic-microservice</figcaption>
+</figure>
+<p>Sans trop entrer dans les details techniques, la question est de savoir lequel des deux choisirs? Ou du moins par quoi commencer? Les applications monolithics sont adequat si les specificites sont simples. Et si le traffic est reduit. Par-contre, immediatement que ces deux balises sont sautees. Il va falloir pivoter sur une autre architecture. A ce moment on pourra passer dans une architecture microservice. A ce sujet, on pourra prendre l’exemple de <a href="https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin">linkedin</a>.</p>
+<h3 id="linfrastructure-dune-iteration-de-notre-minimal-viable-product">L’infrastructure d’une iteration de notre Minimal Viable Product</h3>
+<p>Apres ce rapide mise au point, nous allons maintenant aborder la question des decisions d’infrastures que nous pourrons retenir pour notre M.V.P. Il faut toutefois preciser que l’M.V.P est possible une fois que nous aurrons arreter les differentes fonctionnalites qu’il devra contenir.</p>
+<p>De ce faite, nous avons fait le choix de cette architecture minimaliste type monolithic. Cependant le fait que nous adoptons le choix d’un <code>headless cms</code> pour fournir les services vers un <code>isomorphic framework</code> pour le Client-Side, va nous permettre de pivoter plus surement vers un architecture microservice a l’avenir.</p>
+<p>Nous avons plusieurs scenarios possibles:</p>
+<ol type="1">
+<li>Nuxt, un service RESTAPI ou Graphql <code>&lt;Strapi&gt;</code>, Strapi, MySQL pour la persistence <code>&lt;Strapi&gt;</code>, repository sur Github, un pipepline CI/CD fourni par travis-ci et le hosting fourni par les services azure.</li>
+</ol>
+<figure>
+<img src="./assets/nuStraAzu-My.png" alt="" /><figcaption>n</figcaption>
+</figure>
+<ol start="2" type="1">
+<li><p>On pourrait remplacer Nuxtjs par Nextjs. Il est base sur React.</p></li>
+<li><p>On pourrait remplacer strapi par un headless cms venant de php.</p></li>
+<li><p>On pourrait choisir d’utiliser un autre DB. On pourrait choisir MongoDB.</p></li>
+<li><p>On pourrait faire le choix de d’ecrire le server/API avec Graphql au lieu d’implementer le RESTAPI.</p></li>
+<li><p>On pourrait Choisir un autre repository autre que github. On pourrait choisir gitlab ou bien bitbucket.</p></li>
+<li><p>On pourrait ce servir d’un autre service CI/CD tel que circle-ci. Ou bien de ne pas s’en servir du tout.</p></li>
+</ol>
 <blockquote>
 <p>Decision:</p>
 </blockquote>

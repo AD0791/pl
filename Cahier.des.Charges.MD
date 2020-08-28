@@ -78,7 +78,7 @@ Toutefois nous utiliserons ce terme pour englober le modus operandi c'est-a-dire
 
 Notre objectif est de trouver la meilleur facon de construire l'application web pour fournir une excellente performance, avec un haut niveau de securite et un cout raisonnablement bas pour le `scaling`.
 
-### Les Questions D'infrastructures
+### Les Questions D'infrastructures Generales
 
 Par Software Architecture nous entendons la representation et la coordination des composantes principales du systeme, qui vont constituer ensemble l'application. Il est necessaire d'aborder ce point puisque le choix de l'architecture determinera l'evolution, la performance et la resilience de l'application.
 
@@ -90,9 +90,31 @@ En resume, l'utilisateur en operant sur l'interface utilisateur fait des requett
 
 ![monolithic-microservice](./assets/mono-micro.png)
 
-Sans trop entrer dans les details techniques, _la question est de savoir lequel des deux choisirs? Ou du moins par quoi commencer?_
+Sans trop entrer dans les details techniques, la question est de savoir lequel des deux choisirs? Ou du moins par quoi commencer? Les applications monolithics sont adequat si les specificites sont simples. Et si le traffic est reduit. Par-contre, immediatement que ces deux balises sont sautees. Il va falloir pivoter sur une autre architecture. A ce moment on pourra passer dans une architecture microservice. A ce sujet, on pourra prendre l'exemple de [linkedin](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin).
 
-- Restapi or graphql
+### L'infrastructure d'une iteration de notre Minimal Viable Product
+
+Apres ce rapide mise au point, nous allons maintenant aborder la question des decisions d'infrastures que nous pourrons retenir pour notre M.V.P. Il faut toutefois preciser que l'M.V.P est possible une fois que nous aurrons arreter les differentes fonctionnalites qu'il devra contenir.
+
+De ce faite, nous avons fait le choix de cette architecture minimaliste type monolithic. Cependant le fait que nous adoptons le choix d'un `headless cms` pour fournir les services vers un `isomorphic framework` pour le Client-Side, va nous permettre de pivoter plus surement vers un architecture microservice a l'avenir.
+
+Nous avons plusieurs scenarios possibles:
+
+1. Nuxt, un service RESTAPI ou Graphql `<Strapi>`, Strapi, MySQL pour la persistence `<Strapi>`, repository sur Github, un pipepline CI/CD fourni par travis-ci et le hosting fourni par les services azure.
+
+![n](./assets/nuStraAzu-My.png)
+
+2. On pourrait remplacer Nuxtjs par Nextjs. Il est base sur React.
+
+3. On pourrait remplacer strapi par un headless cms venant de php.
+
+4. On pourrait choisir d'utiliser un autre DB. On pourrait choisir MongoDB.
+
+5. On pourrait faire le choix de d'ecrire le server/API avec Graphql au lieu d'implementer le RESTAPI.
+
+6. On pourrait Choisir un autre repository autre que github. On pourrait choisir gitlab ou bien bitbucket.
+
+7. On pourrait ce servir d'un autre service CI/CD tel que circle-ci. Ou bien de ne pas s'en servir du tout.
 
 > Decision:
 
