@@ -145,7 +145,7 @@ Ce sont la, les elements primaires du developpement logiciel. Ils devront faire 
 
 Strapi est contruit au-dessus de Nodejs. Il serait bien d'avoir une notion et une experience complete avec node et express. Comment etablir un server RESTAPI ou Graphql? Comment etablir une connection securise avec un database choisi. Et consort. Pour tout autre headless cms choisi, un raisonnement analogue sera fait au cas par cas.
 
-4. Database managment system: `C`
+4. Database managment system: `<C>`
 
    - MySQL / PostgresSQL
    - MongoDB / CoucheDB `(mention: Redis)`
