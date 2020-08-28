@@ -48,6 +48,12 @@ draw.io est assez intuitif. Nous pourrons l'utiliser pour faire des diagrams sim
 
 ### Fonctionnalite de l'application
 
+Cette section sera l'objet des fonctionnalites retenus pour l'application.
+
 ## Stack Pour le developpement et la mise en production de l'application
+
+Le mot "Stack" designe, en ce qui nous concerne, l'ensemble des technologies que nous allons utilise pour developper l'application. Par technologies, nous entendons les languages de programmations et les services que nous aurons a employer.
+
+Toutefois nous utiliserons ce terme pour englober le modus operandi c'est-a-dire l'infrastructure (l'architecture) que nous mettrons en place pour batir l'application.
 
 ## Delai de realisation de l'application
