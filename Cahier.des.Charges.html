@@ -1,16 +1,30 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {
+packages: ['base'], 
+inlineMath: [['$','$'], ['\\(','\\)']],
+processEscapes: true},
+jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+TeX: {
+extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+equationNumbers: {
+autoNumber: "AMS"
+}
+}
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 <h1 id="specifications-for-project-lifecycle-web-application">Specifications For Project Lifecycle Web Application</h1>
 <ol type="1">
-    <li>Objectifs de l’application.</li>
-    <li>Spécificités techniques de l’application.</li>
-    <li>Stack pour le developpement et la mise en production de l’application.</li>
-    <li>Délais de réalisation de l’application.</li>
+<li>Objectifs de l’application.</li>
+<li>Spécificités techniques de l’application.</li>
+<li>Stack pour le developpement et la mise en production de l’application.</li>
+<li>Délais de réalisation de l’application.</li>
 </ol>
 <h2 id="objectifs-de-lapplication">Objectifs de L’application</h2>
-<p>Le principal produit de ce projet sera le développement d’une application web dédiée aux acteurs du développement et
-    donc qui priorise la méthodologie waterfall et offre une pluralité de fonctionnalités répondants aux besoins des
-    programmes et projets de développement dont le travail collaboratif. Le produit devra fusionner au mieux les
-    avantages des logiciels desktop waterfall et des applications mobiles et web Agile, Kanban et Scrum orientées
-    affaires.</p>
+<p>Le principal produit de ce projet sera le développement d’une application web dédiée aux acteurs du développement et donc qui priorise la méthodologie waterfall et offre une pluralité de fonctionnalités répondants aux besoins des programmes et projets de développement dont le travail collaboratif. Le produit devra fusionner au mieux les avantages des logiciels desktop waterfall et des applications mobiles et web Agile, Kanban et Scrum orientées affaires.</p>
 <p>L’application devra:</p>
 <pre><code>- Fournir aux professionnels en gestion de projet un outil informatique complet et convivial susceptible de faciliter leurs travaux de planification et de gestion de la mise en œuvre de leur projet.
 
@@ -20,23 +34,21 @@
 
 - Créer une entreprise technologique performante capable d’offrir l’application à un maximum de professionnels du développement et de les accompagner quotidiennement dans l’utilisation de cette dernière.</code></pre>
 <h2 id="specificites-techniques-de-lapplication">Specificites Techniques de L’application</h2>
-<p>Dans cette section, nous aurons a aborder en detail les fonctionnalites des differentes composantes de l’application.
-</p>
+<p>Dans cette section, nous aurons a aborder en detail les fonctionnalites des differentes composantes de l’application.</p>
 <h3 id="larborescence-de-lapplication">L’arborescence de l’application</h3>
-<p>Par arborescence de l’application, on entend un graphe donnant une representation static des composantes de
-    l’interface d’utilisateur. Et on pourra voir comment ces composantes sont interconnectes.</p>
+<p>Par arborescence de l’application, on entend un graphe donnant une representation static des composantes de l’interface d’utilisateur. Et on pourra voir comment ces composantes sont interconnectes.</p>
 <p>Il peut etre presente en annexe</p>
 <blockquote>
-    <p>Decision:</p>
+<p>Decision:</p>
 </blockquote>
-<p>Nous choisissons d’utiliser le logiciel <a href="https://www.figma.com">Figma</a>. Il est “web-based” et
-    l’apprentissage n’est pas aussi difficile.</p>
+<p>Nous choisissons d’utiliser le logiciel <a href="https://www.figma.com">Figma</a>. Il est “web-based” et l’apprentissage n’est pas aussi difficile.</p>
 <p>Nous pouvons utiliser un logiciel “web-based” <a href="https://app.diagrams.net">draw.io</a></p>
-<p>figma nous permettra de faire un design du UI. Il faudra prendre soin du meme coup se familiariser avec les bonnes
-    pratiques UI/UX. <code>$courses</code></p>
-<p>draw.io est assez intuitif. Nous pourrons l’utiliser pour faire des diagrams simple represantant au mieux
-    l’application.</p>
+<p>figma nous permettra de faire un design du UI. Il faudra prendre soin du meme coup se familiariser avec les bonnes pratiques UI/UX. <code>$courses</code></p>
+<p>draw.io est assez intuitif. Nous pourrons l’utiliser pour faire des diagrams simple represantant au mieux l’application.</p>
 <h3 id="fonctionnalite-de-lapplication">Fonctionnalite de l’application</h3>
-<h2 id="stack-pour-le-developpement-et-la-mise-en-production-de-lapplication">Stack Pour le developpement et la mise en
-    production de l’application</h2>
+<p>Cette section sera l’objet des fonctionnalites retenus pour l’application.</p>
+<h2 id="stack-pour-le-developpement-et-la-mise-en-production-de-lapplication">Stack Pour le developpement et la mise en production de l’application</h2>
+<p>Le mot “Stack” designe, en ce qui nous concerne, l’ensemble des technologies que nous allons utilise pour developper l’application. Par technologies, nous entendons les languages de programmations et les services que nous aurons a employer.</p>
+<p>Toutefois nous utiliserons ce terme pour englober le modus operandi c’est-a-dire l’infrastructure (l’architecture) que nous mettrons en place pour batir l’application.</p>
+<p>Notre objectif est de trouver la meilleur faon de</p>
 <h2 id="delai-de-realisation-de-lapplication">Delai de realisation de l’application</h2>
