@@ -177,6 +177,8 @@ Les Composantes technologiques devant permettre a la construction du MVP va dema
 
 Il faut toutefois preciser qu'il ne s'agira pas de maitriser en profondeur les differents points soulever. Mais par-contre il y en a certaines qui sont capitales.
 
-Software Architecture `$course :product.manger/scrumMaster/product.owner`
+IL faut en plus prendre consideration que nous devrons occuper des roles bien specifiques pour le moment dans l'entreprise. Ce faisant, on peut meme enviseager de considerer l'apprentissage des concepts fodamentaux du Software Architecture `$course :product.manger/scrumMaster/product.owner`
 
 ## Delai de realisation de l'application
+
+Dans cette section, nous devons nous statuer sur un delai raisonnable pour la mise en production d'une version _X_ de notre Minimal Viable Product.
