@@ -84,11 +84,11 @@ Par Software Architecture nous entendons la representation et la coordination de
 
 A la base, l'architecture qui est la plus principalement utilisee pour repondre aux besoins d'un utilisateur, est l'architecture `Client-Server`. Il est base sur model `response-resquest`.
 
-![client-server](./assets/client-server.png)
+![](./assets/client-server.png)
 
 En resume, l'utilisateur en operant sur l'interface utilisateur fait des requettes. Ces requettes devront etre repondues par des services. Ces services sont offerts par un server ou plusieurs microservices. Bien evidemment la question de persitence des donnees du client est automatique dans ce scenario. Fort de cela, nous avons deux choix qui vont faire surface. Il existe deux architectures de la meme famille que l'architecture `Client-Server`. L'architecture `Monolithic` et l'architecture `Microservices`.
 
-![monolithic-microservice](./assets/mono-micro.png)
+![](./assets/mono-micro.png)
 
 Sans trop entrer dans les details techniques, la question est de savoir lequel des deux choisirs? Ou du moins par quoi commencer? Les applications monolithics sont adequat si les specificites sont simples. Et si le traffic est reduit. Par-contre, immediatement que ces deux balises sont sautees. Il va falloir pivoter sur une autre architecture. A ce moment on pourra passer dans une architecture microservice. A ce sujet, on pourra prendre l'exemple de [linkedin](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin).
 
@@ -102,7 +102,7 @@ Nous avons plusieurs scenarios possibles:
 
 1. Nuxt, un service RESTAPI ou Graphql `<Strapi>`, Strapi, MySQL pour la persistence `<Strapi>`, repository sur Github, un pipepline CI/CD fourni par travis-ci et le hosting fourni par les services azure.
 
-![n](./assets/nuStraAzu-My.png)
+![](./assets/nuStraAzu-My.png)
 
 2. On pourrait remplacer Nuxtjs par Nextjs. Il est base sur React.
 
@@ -134,7 +134,8 @@ Ce sont la, les elements primaires du developpement logiciel. Ils devront faire 
    - Bulma
    - Tailwind
    - Boostrap
-   - material design `<C>`
+   - material design
+   - vuetify `<C>`
 
 3. Vers Headless CMS: `<C>`
 
@@ -182,3 +183,9 @@ IL faut en plus prendre consideration que nous devrons occuper des roles bien sp
 ## Delai de realisation de l'application
 
 Dans cette section, nous devons nous statuer sur un delai raisonnable pour la mise en production d'une version _X_ de notre Minimal Viable Product.
+
+1. Premier Scenario:
+
+2. Second Scenario:
+
+3. Troisieme Scenario:
