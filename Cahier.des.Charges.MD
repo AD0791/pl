@@ -184,8 +184,50 @@ IL faut en plus prendre consideration que nous devrons occuper des roles bien sp
 
 Dans cette section, nous devons nous statuer sur un delai raisonnable pour la mise en production d'une version _X_ de notre Minimal Viable Product.
 
-1. Premier Scenario:
+1. **Premiere Etape - Design tools and composantes fonctionnelle de l'application**
 
-2. Second Scenario:
+- acquerir des competences pour construire des interfaces d'utilisateur conviviales et avec utlisation agreable. **(UI/UX)**.
 
-3. Troisieme Scenario:
+- identifier intensivement les functionnalites qui seront utilisees dans notre application.
+
+> Ces deux points doivent etre remplies en parrallele. On pourra faire le design des diverses composantes qui seront dans notre UI/UX. Des points specifiques sur notre Branding pourra aussi etre comblee.
+
+**Voies et Moyens:**
+
+Nous utiliserons la plateforme [designcode](https://designcode.io/courses). Cette plateforme est battis pour les designers et coders. Nous aurons besoin d'une souscription de 9\$ par mois.
+
+> Periode : 3-4 mois. Les fonctionnalites de notre MVP seront en place. Et le design de notre prototype sera aussi entamme.
+
+2. **Deuxieme Etape - Maquette et Composante technologiques**
+
+- Le design avec figma ou sketch continue.
+
+- Il nous faudra maitriser le Stack que nous avons choisi. Cela se fera de maniere methodique et agile.
+
+**Voies et Moyens**
+
+Nous pouvons trouver les ressources gratuites sur youtube. Il y a des plateformes payantes aussi. IL faut aussi regarder les documentations disponibles en lignes.
+
+> Periode: 5-8 mois. A ce moment, la maquette sera pratiquement achevee ou a 65%. Le Stack sera connu assez pour pouvoir commencer la construction et mise en place de notre MVP.
+
+3. **M.V.P**
+
+- Build des composantes de notre UI
+
+- Mise en place de notre server REST ou GraphQL
+
+- Persitance avec Mysql ou Mongo
+
+- Compostion de notre repository github
+
+- etablissement d'une methode agile et d'un gitflow (_interne_)
+
+- etablissment de notre methode CI/CD et de deploiement
+
+**Voies et Moyens:**
+
+A ce stade, il faudra compter sur les documentations et autres ressources.
+
+> Periode 12-24 mois. A ce niveau, la maquette sera a 100%. Le M.V.P doit etre en production i.e en lignes (85%-100%).
+
+---
